@@ -11,7 +11,7 @@ When not studying or on adventures in the field, I enjoy bouldering, yoga, mount
 ## About this repo
 This is my repo for ~~all my STAT 545 files~~ my first STAT 545 homework assignment, familiarizing myself with *the* **syntax** of R Markdown, getting used to RStudio, Git and GitHub.
 
-I have done some **preliminary** exploration of the gapminder dataset that can be found [here](github.com/sdhanani/STAT545-hw01-dhanani-selina/hw01_gapminder.md)
+I have done some **preliminary** exploration of the gapminder dataset that can be found [here](https://github.com/sdhanani/STAT545-hw01-dhanani-selina/hw01_gapminder.md)
 
 ***
 ## The process
