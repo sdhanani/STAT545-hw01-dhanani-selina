@@ -1,0 +1,49 @@
+---
+title: "hw01_gapminder"
+author: "sdhanani"
+date: "September 15, 2017"
+output: github_document
+---
+```{r}
+library(tidyverse)
+library(gapminder)
+str(gapminder)
+head(gapminder)
+nrow(gapminder)
+ncol(gapminder)
+```
+Now we've loaded the packages and took intial looks at the data through thet structure and the top 6 rows of the data. Inspected the data and found the number of rows and columns. 
+
+Would be curious to see what the range of the numeric values are:
+```{r}
+range(gapminder$year)
+range(gapminder$lifeExp)
+range(gapminder$pop)
+range(gapminder$gdpPercap)
+```
+
+Want to see general summary of all the variables in the gapminder dataset:
+```{r}
+summary(gapminder$country)
+summary(gapminder$continent)
+summary(gapminder$year)
+summary(gapminder$lifeExp)
+summary(gapminder$pop)
+summary(gapminder$gdpPercap)
+```
+Some preliminary plotting of numeric variables
+```{r}
+plot(lifeExp~year, data=gapminder)
+```
+```{r}
+plot(gdpPercap~year, gapminder)
+```
+```{r}
+plot(lifeExp~pop, gapminder)
+```
+
+Some plots of numeric and categorical variables
+```{r}
+boxplot(lifeExp~continent, gapminder)
+boxplot(gdpPercap~continent, gapminder)
+```
